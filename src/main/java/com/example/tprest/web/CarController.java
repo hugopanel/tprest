@@ -24,6 +24,7 @@ public class CarController {
                 new Car("33BB44", "Alpine", 500)
         );
         carsList.add(new Car("55CC66", "Volvo", 300));
+        carsList.add(new Car("77DD88", "Lada", 2));
     }
 
     @GetMapping("/cars")
